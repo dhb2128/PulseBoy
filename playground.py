@@ -1,4 +1,4 @@
-from PyPulse import PulseGeneration, PulseInterface
+from pypulse import PulseGeneration, PulseInterface
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.io as sio

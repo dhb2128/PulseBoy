@@ -1,7 +1,7 @@
 from PyQt5 import QtCore
 from time import sleep
 import daqface.DAQ as daq
-from PyPulse import PulseInterface
+from pypulse import PulseInterface
 import scipy.io as sio
 import numpy as np
 

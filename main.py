@@ -1,6 +1,8 @@
 import sys
+import pickle as pickle
+import os
 
-from PyPulse import PulseInterface
+from pypulse import PulseInterface
 import numpy as np
 from PyQt5 import QtWidgets
 
@@ -8,8 +10,7 @@ import Models.Experiment as Experiment
 from Controllers import QueueControl, QueueControl
 from Designs import mainDesign
 from Models import PBWidgets
-import pickle as pickle
-import os.path
+
 
 
 # noinspection PyBroadException
